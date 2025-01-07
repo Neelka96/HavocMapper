@@ -1,5 +1,6 @@
 # API Key File
 api_keys.py
+api_key.py
 
 # MacOS Directory Config
 .DS_Store
