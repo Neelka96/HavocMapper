@@ -3,16 +3,16 @@
 `(edX/2U & UT) Data Analytics and Visualization Bootcamp`  
 `Cohort UTA-VIRT-DATA-PT-11-2024-U-LOLC`  
 `Contributors:`
-    `Alex Vallone`
-    `Avenika Amaradasa`
-    `Claudia Beltran`
-    `Neel Agarwal`
+    `Alex Vallone`  
+    `Avenika Amaradasa`  
+    `Claudia Beltran`  
+    `Neel Agarwal`  
 
 
 ## Table of Contents  
 1. [Introduction](#introduction)  
-2. [Challenge Overview](#challenge-overview)
-    - [FEMA Fact-Sheet](#fema-fact-sheet)
+2. [Challenge Overview](#challenge-overview)  
+    - [FEMA Fact-Sheet](#fema-fact-sheet)  
 3. [Variables/Breakdowns](#variablesbreakdowns)  
     - [Relevant Variables](#relevant-variables)  
     - [Summary Breakdowns](#summary-breakdowns)  
@@ -23,8 +23,8 @@
 5. [Files and Directory Structure](#files-and-directory-structure)  
 6. [Expected Results](#expected-results)  
 7. [Final Analysis](#final-analysis)  
-    - [Analysis Section 1](#analysis-section-1)
-    - [Analysis Section 2](#analysis-section-2)
+    - [Analysis Section 1](#analysis-section-1)  
+    - [Analysis Section 2](#analysis-section-2)  
 
 
 ## Introduction  
