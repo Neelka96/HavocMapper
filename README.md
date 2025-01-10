@@ -25,6 +25,7 @@
 7. [Final Analysis](#final-analysis)  
     - [Analysis Section 1](#analysis-section-1)  
     - [Analysis Section 2](#analysis-section-2)  
+8. [Citations](#citations)
 
 
 ## Introduction  
@@ -217,3 +218,5 @@ Outputs will be created without additional directory structuring
 
 
 [:arrow_up: Return to TOC](#table-of-contents)  
+
+## Citations
