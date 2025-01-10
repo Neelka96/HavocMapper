@@ -1,3 +1,14 @@
+# Acronyms
+- OTSA = Oklahoma Tribal Statistical Area
+    - A statistical area in Oklahoma that represents a former American Indian reservation (AIR)  
+    - The U.S. Census Bureau and federally recognized tribes in Oklahoma work together to identify and delineate OTSAs
+- PMSA = Primary Metropolitan Statistical Area 
+    - A U.S. Census Bureau term used to define urbanized regions based on population and economic ties
+    - (in PMSA 1170,3280,5440): Suggests that the county falls within multiple PMSAs, specifically those with the codes 1170, 3280, and 5440. Each PMSA code represents a specific metropolitan area or urban region.
+    - PMSAs are subdivisions of Consolidated Metropolitan Statistical Areas (CMSAs). These are regions with a large population nucleus and nearby communities that share strong economic and social ties.
+    - For example, a PMSA could represent part of a large urban area, like specific sections of the Los Angeles or Chicago regions.
+- 
+
 # Disaster Declaration Summaries Description
 
 Disaster Declarations Summaries is a summarized dataset describing all federally declared disasters. This dataset lists all official FEMA Disaster Declarations, beginning with the first disaster declaration in 1953 and features all three disaster declaration types: major disaster, emergency, and fire management assistance. The dataset includes declared recovery programs and geographic areas (county not available before 1964; Fire Management records are considered partial due to historical nature of the dataset).

@@ -1,8 +1,8 @@
-# Group Project 1 - HavocMapper
+# Group Project 1 - HavocMapper  
 `Module 7`  
 `(edX/2U & UT) Data Analytics and Visualization Bootcamp`  
 `Cohort UTA-VIRT-DATA-PT-11-2024-U-LOLC`  
-`Contributors:`
+`Contributors:`  
     `Alex Vallone`  
     `Avenika Amaradasa`  
     `Claudia Beltran`  
