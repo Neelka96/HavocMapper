@@ -8,6 +8,16 @@
     `Claudia Beltran`  
     `Neel Agarwal`  
 
+# QUESTIONS FOR GROUP:
+    - Is it okay if we remove volcanoes, earthquakes, and mud/landslides from weather-disasters? Or should both versions be used?
+    - Should islands be considered as county-equivalents or as islands as a separate grouping?
+    - Is the nitty-gritty data field edits okay? Or should those rows just be dropped?
+
+# MAIN TODO:
+    - Finish `areaType` cleanup
+    - Finalize what disasters are included in project definition
+    - Ensure data cleanup method is okay with group
+    - 
 
 ## Table of Contents  
 1. [Introduction](#introduction)  
