@@ -7,7 +7,13 @@
     - (in PMSA 1170,3280,5440): Suggests that the county falls within multiple PMSAs, specifically those with the codes 1170, 3280, and 5440. Each PMSA code represents a specific metropolitan area or urban region.
     - PMSAs are subdivisions of Consolidated Metropolitan Statistical Areas (CMSAs). These are regions with a large population nucleus and nearby communities that share strong economic and social ties.
     - For example, a PMSA could represent part of a large urban area, like specific sections of the Los Angeles or Chicago regions.
-- 
+- TDSA = Tribe of Nebraska Designated Area
+    - Ponca TDSA, or Ponca Tribe of Nebraska Designated Area, is a Public Assistance program in the FEMA Severe Storms and Flooding (DR-4446).
+    - The Ponca Tribe of Nebraska also has a Tax Commission and an Emergency Management Department
+- REAA = Regional Educational Attendance Area
+    - An educational area that is established in an unorganized borough of the state AS 14.08.031(a)
+    - REAA elections are administered by the Division of Elections.
+
 
 # Disaster Declaration Summaries Description
 
