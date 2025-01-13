@@ -21,4 +21,5 @@ country_dict = {
 }
 
 if __name__ == '__main__':
+
     print('Script accidentally executed.\nScript is for import use only.')
