@@ -125,8 +125,8 @@ fi
 deactivate
 
 echo "################################################################################################"
-echo "#   Setup complete! Use 'source venv/bin/activate' to activate your new virtual environment!   #"
-echo "#            NOTE: 'deactivate' can be used to deactivate you new venv at any point.           #"
-echo "#   You're now ready to run 'havoc_ETL.ipynb' and then 'havoc_analysis.ipynb' in that order!   #"
-echo "# When entering the notebooks in VS Code, please select your new kernel: venv (python 3.12.2)  #"
+echo "#    Setup Complete! Virtual Environment is ready to use in VS Code with Jupyter Notebooks!    #"
+echo "#  The designated order the .ipynb Notebooks should be run in is havoc_ETL -> havoc_analysis   #"
+echo "#  Before running each notebook, please select the newly created kernel: venv (python 3.12.2)  #"
+echo "#                    You're ready to go! Thanks for using the setup script!                    #"
 echo "################################################################################################"
