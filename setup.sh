@@ -109,6 +109,9 @@ if ! command -v geckodriver &> /dev/null; then
 
         # Copy Geckodriver into the virtual environment's bin directory
         cp "$GECKO_DRIVER" venv/bin/geckodriver
+        PATH="$(pwd)/venv/bin:$PATH"
+        export PATH
+        echo
         echo "#################################################################"
         echo "#   Geckodriver installed locally in the virtual environment.   #"
         echo "#################################################################"
