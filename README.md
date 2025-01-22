@@ -72,11 +72,11 @@ data trends. Learn more about FEMA's work on their [website](https://www.fema.go
     # Add additional keys as needed  
     ```  
 > [!NOTE]  
-> While the native system all code was built on runs through the conda python interpreter (Anaconda Distribution), all  
-> dependencies were loaded through pip to ensure cross-compatibility with other Python interpreters. Anaconda's official  
-> statement is that they can not ensure the resolution of dependency conflicts from packages installed through Pypi, BUT  
-> conda does naturally house pip installed dependencies separately from each other when installed in different conda  
-> environments. When creating a new environment from scratch, this process will almost always function as intended!  
+> While the native system all code was built on runs through the conda python interpreter (Anaconda Distribution), all
+> dependencies were loaded through pip to ensure cross-compatibility with other Python interpreters. Anaconda's official
+> statement is that they can not ensure the resolution of dependency conflicts from packages installed through Pypi, BUT
+> conda does naturally house pip installed dependencies separately from each other when installed in different conda
+> environments. When creating a new environment from scratch, this process will almost always function as intended!
 
 
 ### Notebook Execution Order  
