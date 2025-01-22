@@ -277,29 +277,29 @@ HavocMapper/
 |   |   |   |-- avenika/
 |   |   |   |   |-- FloodTrend_byYear.png
 |   |   |   |   |-- HurricaneTrend_byYear.png
-| 	| 	| 	|   |-- SevereStormTrend_byYear.png
+|   |   |   |   |-- SevereStormTrend_byYear.png
 | 	| 	|   |-- claudia/
-| 	| 	| 	|   |-- AvgCycleTime_byType.png
-| 	| 	| 	|   |-- CycleTimeDistr_byType.png
-| 	| 	| 	|   |-- DisasterCount_byState.png
-| 	| 	| 	|   |-- DisasterNumber_overTime.png
-| 	| 	| 	|   |-- DisasterNumbers_byYear.png
-| 	| 	| 	|   |-- TimeForDeclaration_byState.png
-| 	| 	| 	|   |-- Year_over_year_disasters.png
+|   |   |   |   |-- AvgCycleTime_byType.png
+|   |   |   |   |-- CycleTimeDistr_byType.png
+|   |   |   |   |-- DisasterCount_byState.png
+|   |   |   |   |-- DisasterNumber_overTime.png
+|   |   |   |   |-- DisasterNumbers_byYear.png
+|   |   |   |   |-- TimeForDeclaration_byState.png
+|   |   |   |   |-- Year_over_year_disasters.png
 | 	| 	|   |-- neel/
-| 	| 	| 	|   |-- cleaned_df.png
-| 	| 	| 	|   |-- original_df.png
-| 	| 	| 	|   |-- summary_df.png
+|   |   |   |   |-- cleaned_df.png
+|   |   |   |   |-- original_df.png
+|   |   |   |   |-- summary_df.png
 | 	|-- Original Notebooks/
-| 	|	  |-- Alex_Notebook.ipynb
-|	  |	  |-- Avenika_Notebook.ipynb
-|	  |	  |-- Claudia_Notebook.ipynb
-| 	| 	|-- Neel_Notebook.ipynb
-|	  |-- PDFs/
-| 	|   |-- disaster_declaration_process.pdf
-| 	| 	|-- FEMA Weather Impact Analysis.pdf
-| 	|	  |-- InternationalCountryCodes.pdf
-| 	|-- fact_sheet.md
+|   |   |-- Alex_Notebook.ipynb
+|   |   |-- Avenika_Notebook.ipynb
+|   |   |-- Claudia_Notebook.ipynb
+|   |   |-- Neel_Notebook.ipynb
+|   |-- PDFs/
+|   |   |-- disaster_declaration_process.pdf
+|   |   |-- FEMA Weather Impact Analysis.pdf
+|   |   |-- InternationalCountryCodes.pdf
+|   |-- fact_sheet.md
 |- .gitignore
 |- DisastersDeclarationsSummaries.csv
 |- havoc_ETL.ipynb
