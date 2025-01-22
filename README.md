@@ -34,30 +34,31 @@ data trends. Learn more about FEMA's work on their [website](https://www.fema.go
   - [Google Slides Presentation](#google-slides-presentation)  
 - [Contributors](#contributors)  
 - [Data Sources and Citations](#data-sources-and-citations)  
+- [Long Form Directory Structure](#long-form-directory-structure)
 
 
 ## Setup  
 
 ### Quick-Run Instructions  
 
-1. Clone the repository in the local directory of your choosing: `cd your/path/here`  
-    - Using the HTTPS web URL  
+1. Clone the repository in the local directory of your choosing with `cd your/path/here`  
+    - Using the HTTPS web URL:  
         ```bash  
-        git clone https://github.com/neelka96/havocmapper.git  
-        cd havocmapper  
+        git clone https://github.com/neelka96/HavocMapper.git  
+        cd HavocMapper  
         ```  
-    - Using a password protected SSH Key (if you have it enabled other wise use method above)  
+    - Using a password protected SSH Key (if you have it enabled other wise use method above):  
         ```bash  
         git clone git@github.com:Neelka96/HavocMapper.git  
-        cd havocmapper  
+        cd HavocMapper  
         ```  
 2. Create a virtual environment (optional but recommended)  
-    - With Conda  
+    - With Conda:  
         ```bash  
         conda create --name venv python=3.12.2  
         conda activate venv  
         ```  
-    - With Built-in Python venv Library  
+    - With Built-in Python venv Library:  
         ```bash  
         python -m venv venv  
         source venv/bin/activate  # On Windows: venv\Scripts\activate  
@@ -68,8 +69,13 @@ data trends. Learn more about FEMA's work on their [website](https://www.fema.go
     ```  
 4. Add API keys in a file named `api_keys.py`:  
     ```python  
-    geoapify_NEEL_1 = "your_api_key_here"  
+    key1 = "your_api_key_here"  
+    key2 = "your_optional_second_key_here"
+    key3 = "your_optional_third_key_here"
+    ...
     # Add additional keys as needed  
+    # Native setup utilizes up to 9 keys  
+    # Must have 1 key with no upwards limit  
     ```  
 > [!NOTE]  
 > While the native system all code was built on runs through the conda python interpreter   
@@ -83,13 +89,16 @@ data trends. Learn more about FEMA's work on their [website](https://www.fema.go
 
 ### Notebook Execution Order  
 
-1. Run `havoc_ETL.ipynb` first to prepare the dataset and geocode locations.  
-2. Follow with `havoc_analysis.ipynb` for visualizations and analyses.  
+1. Run `havoc_ETL.ipynb` to set up directory, prepare data and geocode locations.  
+2. Follow with `havoc_analysis.ipynb` for visualizations and analyses, and export images.  
 
 ### Reading Notebooks Effectively  
 
-- Use Jupyter Notebook's Outline feature (e.g., in VS Code) to collapse and expand sections for better navigation.  
+- Use Jupyter Notebook's Outline feature (e.g., in the VS Code extension) to collapse and expand sections for better navigation.  
 - Outputs and markdown are organized with headings and foldable cells for clarity.  
+> [!TIP]
+> If running cell by cell, collapse all grouped cells first and then expand and collapse as needed!  
+> Markdown has been thoroughly labeled and grouped for enhanced traversal.  
 
 
 ## General Overview  
@@ -139,19 +148,20 @@ geocoded, and visualized to identify trends in extreme weather responses, levera
 ## Detailed Description  
 
 ### Workflow  
-
 1. **Data Extraction**:  
-   - Download and clean FEMA dataset.  
-   - Apply minor and major cleaning steps, including regex operations.  
+  - Download and clean FEMA dataset.  
+  - Apply minor and major cleaning steps, including regex operations and vector mappings.  
+  - Sets up HavocMapper/assets directory  
 2. **API Integration**:  
-   - Geocode locations using Geoapify API.  
-   - Utilize `ThreadPoolExecutor` for multi-threaded API calls.  
+  - Geocode locations using Geoapify API.  
+  - Utilize `ThreadPoolExecutor` for multi-threaded API calls.  
 3. **Data Aggregation**:  
-   - Summarize geocoded data.  
-   - Export multiple intermediate and final CSV files.  
+  - 
+  - Summarize FEMA merged geocoded data.  
+  - Export multiple intermediate and final CSV files.  
 4. **Analysis and Visualization**:  
-   - Load cleaned data for analysis.  
-   - Generate visualizations such as maps, line plots, and bar charts.  
+  - Load cleaned data for analysis.  
+  - Generate visualizations such as maps, line plots, and bar charts, and scatter plots.  
 
 ### Purpose and Goals  
 
@@ -238,3 +248,141 @@ HavocMapper/
 - [FEMA Disaster Declarations Summary Dataset](https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2)  
 - [Geoapify API](https://www.geoapify.com/)  
 
+
+## Long Form Directory Structure
+
+Structure of GitHub Repo:
+```
+HavocMapper/
+|
+|-- docs/
+|   |-- Expected Assets/
+|   |   |-- csv/
+|	  |  	|   |-- clean/
+|	  | 	| 	|   |-- distilled_summary.csv
+|	  | 	| 	|   |-- femaDisasters_geocode.csv
+|	  | 	|   |-- raw/
+|	  | 	| 	|   |-- DisastersDeclarationsSummaries.csv
+|	  | 	| 	|   |-- femaDisasters_rough.csv
+|	  | 	| 	|   |-- location_geocode.csv
+|	  |   |-- fig/
+|	  | 	|   |-- alex/
+|	  | 	| 	|   |-- MostCommonDisasters_byTopStates.png
+|	  | 	| 	|   |-- Top10_MostFrequent_Disasters.png
+|	  | 	| 	|   |-- Top10_States_MostDisasters.png
+|	  | 	|   |-- avenika/
+|	  | 	|	  |   |-- FloodTrend_byYear.png
+| 	| 	| 	|   |-- HurricaneTrend_byYear.png
+| 	| 	| 	|   |-- SevereStormTrend_byYear.png
+| 	| 	|   |-- claudia/
+| 	| 	| 	|   |-- AvgCycleTime_byType.png
+| 	| 	| 	|   |-- CycleTimeDistr_byType.png
+| 	| 	| 	|   |-- DisasterCount_byState.png
+| 	| 	| 	|   |-- DisasterNumber_overTime.png
+| 	| 	| 	|   |-- DisasterNumbers_byYear.png
+| 	| 	| 	|   |-- TimeForDeclaration_byState.png
+| 	| 	| 	|   |-- Year_over_year_disasters.png
+| 	| 	|   |-- neel/
+| 	| 	| 	|   |-- cleaned_df.png
+| 	| 	| 	|   |-- original_df.png
+| 	| 	| 	|   |-- summary_df.png
+| 	|-- Original Notebooks/
+| 	|	  |-- Alex_Notebook.ipynb
+|	  |	  |-- Avenika_Notebook.ipynb
+|	  |	  |-- Claudia_Notebook.ipynb
+| 	| 	|-- Neel_Notebook.ipynb
+|	  |-- PDFs/
+| 	|   |-- disaster_declaration_process.pdf
+| 	| 	|-- FEMA Weather Impact Analysis.pdf
+| 	|	  |-- InternationalCountryCodes.pdf
+| 	|-- fact_sheet.md
+|- .gitignore
+|- DisastersDeclarationsSummaries.csv
+|- havoc_ETL.ipynb
+|- havoc_analysis.ipynb
+|- README.md
+|- requirements.txt
+```
+
+Structure of Intended Output Directory with new assets directory - should mimic the Expected Assets directory:
+```
+HavocMapper/
+|
+|-- assets/
+|   |-- csv/
+|	  |  	|-- clean/
+|	  | 	| 	|-- distilled_summary.csv
+|	  | 	| 	|-- femaDisasters_geocode.csv
+|	  | 	|-- raw/
+|	  | 	| 	|-- DisastersDeclarationsSummaries.csv
+|	  | 	| 	|-- femaDisasters_rough.csv
+|	  | 	| 	|-- location_geocode.csv
+|	  |-- fig/
+|	  | 	|-- alex/
+|	  | 	| 	|-- MostCommonDisasters_byTopStates.png
+|	  | 	| 	|-- Top10_MostFrequent_Disasters.png
+|	  | 	| 	|-- Top10_States_MostDisasters.png
+|	  | 	|-- avenika/
+|	  | 	|	  |-- FloodTrend_byYear.png
+| 	| 	| 	|-- HurricaneTrend_byYear.png
+| 	| 	| 	|-- SevereStormTrend_byYear.png
+| 	| 	|-- claudia/
+| 	| 	| 	|-- AvgCycleTime_byType.png
+| 	| 	| 	|-- CycleTimeDistr_byType.png
+| 	| 	| 	|-- DisasterCount_byState.png
+| 	| 	| 	|-- DisasterNumber_overTime.png
+| 	| 	| 	|-- DisasterNumbers_byYear.png
+| 	| 	| 	|-- TimeForDeclaration_byState.png
+| 	| 	| 	|-- Year_over_year_disasters.png
+| 	| 	|-- neel/
+| 	| 	| 	|-- cleaned_df.png
+| 	| 	| 	|-- original_df.png
+| 	| 	| 	|-- summary_df.png
+|-- docs/
+|   |-- Expected Assets/
+|   |   |-- csv/
+|	  |  	|   |-- clean/
+|	  | 	| 	|   |-- distilled_summary.csv
+|	  | 	| 	|   |-- femaDisasters_geocode.csv
+|	  | 	|   |-- raw/
+|	  | 	| 	|   |-- DisastersDeclarationsSummaries.csv
+|	  | 	| 	|   |-- femaDisasters_rough.csv
+|	  | 	| 	|   |-- location_geocode.csv
+|	  |   |-- fig/
+|	  | 	|   |-- alex/
+|	  | 	| 	|   |-- MostCommonDisasters_byTopStates.png
+|	  | 	| 	|   |-- Top10_MostFrequent_Disasters.png
+|	  | 	| 	|   |-- Top10_States_MostDisasters.png
+|	  | 	|   |-- avenika/
+|	  | 	|	  |   |-- FloodTrend_byYear.png
+| 	| 	| 	|   |-- HurricaneTrend_byYear.png
+| 	| 	| 	|   |-- SevereStormTrend_byYear.png
+| 	| 	|   |-- claudia/
+| 	| 	| 	|   |-- AvgCycleTime_byType.png
+| 	| 	| 	|   |-- CycleTimeDistr_byType.png
+| 	| 	| 	|   |-- DisasterCount_byState.png
+| 	| 	| 	|   |-- DisasterNumber_overTime.png
+| 	| 	| 	|   |-- DisasterNumbers_byYear.png
+| 	| 	| 	|   |-- TimeForDeclaration_byState.png
+| 	| 	| 	|   |-- Year_over_year_disasters.png
+| 	| 	|   |-- neel/
+| 	| 	| 	|   |-- cleaned_df.png
+| 	| 	| 	|   |-- original_df.png
+| 	| 	| 	|   |-- summary_df.png
+| 	|-- Original Notebooks/
+| 	|	  |-- Alex_Notebook.ipynb
+|	  |	  |-- Avenika_Notebook.ipynb
+|	  |	  |-- Claudia_Notebook.ipynb
+| 	| 	|-- Neel_Notebook.ipynb
+|	  |-- PDFs/
+| 	|   |-- disaster_declaration_process.pdf
+| 	| 	|-- FEMA Weather Impact Analysis.pdf
+| 	|	  |-- InternationalCountryCodes.pdf
+| 	|-- fact_sheet.md
+|- .gitignore
+|- DisastersDeclarationsSummaries.csv
+|- havoc_ETL.ipynb
+|- havoc_analysis.ipynb
+|- README.md
+|- requirements.txt
+```
