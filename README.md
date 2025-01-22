@@ -156,8 +156,7 @@ geocoded, and visualized to identify trends in extreme weather responses, levera
   - Geocode locations using Geoapify API.  
   - Utilize `ThreadPoolExecutor` for multi-threaded API calls.  
 3. **Data Aggregation**:  
-  - 
-  - Summarize FEMA merged geocoded data.  
+  - Summarize FEMA merged geocoded data via groupby to reduce data points.  
   - Export multiple intermediate and final CSV files.  
 4. **Analysis and Visualization**:  
   - Load cleaned data for analysis.  
@@ -185,9 +184,11 @@ geocoded, and visualized to identify trends in extreme weather responses, levera
 
 ## Key Challenges  
 
-1. Understanding and parsing FEMA's dataset.  
-2. Handling API rate limits with 9 keys and multi-threading.  
-3. Adapting workflow to handle large datasets efficiently.  
+1. Deciding on project goals and API usage.
+2. Understanding and parsing FEMA's dataset.  
+3. Handling API rate limits and multi-threading with a large dataset.  
+4. Adapting workflow to handle large datasets efficiently.  
+5. Creating efficient workflow that allowed everyone to contribute at the same time
 
 
 ## Directory Structures  
@@ -224,7 +225,9 @@ HavocMapper/
 ### Analyses  
 
 - FEMA disaster trends by state and time.  
+- Severe weather/storm trends by years.  
 - Cycle times and distributions of responses.  
+- Geographic distribution of disaster events by type and disaster itself.
 
 ### Saved Figures and Models  
 
