@@ -103,8 +103,9 @@ data trends. Learn more about FEMA's work on their [website](https://www.fema.go
 
 ## General Overview  
 
-This project follows a structured workflow to explore and analyze FEMA's disaster declarations. Data is extracted, cleaned,  
-geocoded, and visualized to identify trends in extreme weather responses, leveraging modern Python libraries and API integrations.  
+This project follows a structured workflow to explore and analyze FEMA's disaster declarations. Data is extracted,  
+cleaned, geocoded, and visualized to identify trends in extreme weather responses, leveraging modern Python  
+libraries and API integrations.  
 
 
 ## Major Technologies Used  
