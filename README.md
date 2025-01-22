@@ -67,7 +67,16 @@ data trends. Learn more about FEMA's work on their [website](https://www.fema.go
     ```bash  
     pip install -r requirements.txt  
     ```  
-4. Add API keys in a file named `api_keys.py`:  
+4. Feel free to deactivate your virtual environment (conda or otherwise) after installing dependencies!  
+    - With Conda:  
+        ```bash  
+        conda deactivate  
+        ```  
+    - With venv:  
+        ```bash  
+        deactivate  
+        ```  
+5. Add API keys in a file named `api_keys.py`:  
     ```python  
     key1 = "your_api_key_here"  
     key2 = "your_optional_second_key_here"
@@ -77,6 +86,7 @@ data trends. Learn more about FEMA's work on their [website](https://www.fema.go
     # Native setup utilizes up to 9 keys  
     # Must have 1 key with no upwards limit  
     ```  
+6. When running notebooks, be sure to select the kernel/environment the dependencies were installed in.  
 > [!NOTE]  
 > While the native system all code was built on runs through the conda python interpreter   
 > (Anaconda Distribution), all dependencies were loaded through pip to ensure cross-compatibility  
@@ -111,15 +121,10 @@ libraries and API integrations.
 ## Major Technologies Used  
 
 - Python 3.12.2  
+- Jupyter Notebook  
 - pandas  
 - matplotlib  
-- hvplot  
-- holoviews  
-- seaborn  
-- dataframe\_image  
 - requests  
-- pathlib  
-- Jupyter Notebook  
 
 
 ## System Requirements  
@@ -161,6 +166,7 @@ libraries and API integrations.
   - Export multiple intermediate and final CSV files.  
 4. **Analysis and Visualization**:  
   - Load cleaned data for analysis.  
+  - Analyze via different lenses of time, states, types of disasters, and response times.
   - Generate visualizations such as maps, line plots, and bar charts, and scatter plots.  
 
 ### Purpose and Goals  
