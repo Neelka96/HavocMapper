@@ -278,7 +278,7 @@ HavocMapper/
 |   |   |   |   |-- FloodTrend_byYear.png
 |   |   |   |   |-- HurricaneTrend_byYear.png
 |   |   |   |   |-- SevereStormTrend_byYear.png
-| 	| 	|   |-- claudia/
+|   |   |   |-- claudia/
 |   |   |   |   |-- AvgCycleTime_byType.png
 |   |   |   |   |-- CycleTimeDistr_byType.png
 |   |   |   |   |-- DisasterCount_byState.png
@@ -286,11 +286,11 @@ HavocMapper/
 |   |   |   |   |-- DisasterNumbers_byYear.png
 |   |   |   |   |-- TimeForDeclaration_byState.png
 |   |   |   |   |-- Year_over_year_disasters.png
-| 	| 	|   |-- neel/
+|   |   |   |-- neel/
 |   |   |   |   |-- cleaned_df.png
 |   |   |   |   |-- original_df.png
 |   |   |   |   |-- summary_df.png
-| 	|-- Original Notebooks/
+|   |-- Original Notebooks/
 |   |   |-- Alex_Notebook.ipynb
 |   |   |-- Avenika_Notebook.ipynb
 |   |   |-- Claudia_Notebook.ipynb
@@ -314,75 +314,75 @@ HavocMapper/
 |
 |-- assets/
 |   |-- csv/
-|	  |  	|-- clean/
-|	  | 	| 	|-- distilled_summary.csv
-|	  | 	| 	|-- femaDisasters_geocode.csv
-|	  | 	|-- raw/
-|	  | 	| 	|-- DisastersDeclarationsSummaries.csv
-|	  | 	| 	|-- femaDisasters_rough.csv
-|	  | 	| 	|-- location_geocode.csv
-|	  |-- fig/
-|	  | 	|-- alex/
-|	  | 	| 	|-- MostCommonDisasters_byTopStates.png
-|	  | 	| 	|-- Top10_MostFrequent_Disasters.png
-|	  | 	| 	|-- Top10_States_MostDisasters.png
-|	  | 	|-- avenika/
-|	  | 	|	  |-- FloodTrend_byYear.png
-| 	| 	| 	|-- HurricaneTrend_byYear.png
-| 	| 	| 	|-- SevereStormTrend_byYear.png
-| 	| 	|-- claudia/
-| 	| 	| 	|-- AvgCycleTime_byType.png
-| 	| 	| 	|-- CycleTimeDistr_byType.png
-| 	| 	| 	|-- DisasterCount_byState.png
-| 	| 	| 	|-- DisasterNumber_overTime.png
-| 	| 	| 	|-- DisasterNumbers_byYear.png
-| 	| 	| 	|-- TimeForDeclaration_byState.png
-| 	| 	| 	|-- Year_over_year_disasters.png
-| 	| 	|-- neel/
-| 	| 	| 	|-- cleaned_df.png
-| 	| 	| 	|-- original_df.png
-| 	| 	| 	|-- summary_df.png
+|   |   |-- clean/
+|   |   |   |-- distilled_summary.csv
+|   |   |   |-- femaDisasters_geocode.csv
+|   |   |-- raw/
+|   |   |   |-- DisastersDeclarationsSummaries.csv
+|   |   |   |-- femaDisasters_rough.csv
+|   |   |   |-- location_geocode.csv
+|   |-- fig/
+|   |   |-- alex/
+|   |   |   |-- MostCommonDisasters_byTopStates.png
+|   |   |   |-- Top10_MostFrequent_Disasters.png
+|   |   |   |-- Top10_States_MostDisasters.png
+|   |   |-- avenika/
+|   |   |   |-- FloodTrend_byYear.png
+|   |   |   |-- HurricaneTrend_byYear.png
+|   |   |   |-- SevereStormTrend_byYear.png
+|   |   |-- claudia/
+|   |   |   |-- AvgCycleTime_byType.png
+|   |   |   |-- CycleTimeDistr_byType.png
+|   |   |   |-- DisasterCount_byState.png
+|   |   |   |-- DisasterNumber_overTime.png
+|   |   |   |-- DisasterNumbers_byYear.png
+|   |   |   |-- TimeForDeclaration_byState.png
+|   |   |   |-- Year_over_year_disasters.png
+|   |   |-- neel/
+|   |   |   |-- cleaned_df.png
+|   |   |   |-- original_df.png
+|   |   |   |-- summary_df.png
 |-- docs/
 |   |-- Expected Assets/
 |   |   |-- csv/
-|	  |  	|   |-- clean/
-|	  | 	| 	|   |-- distilled_summary.csv
-|	  | 	| 	|   |-- femaDisasters_geocode.csv
-|	  | 	|   |-- raw/
-|	  | 	| 	|   |-- DisastersDeclarationsSummaries.csv
-|	  | 	| 	|   |-- femaDisasters_rough.csv
-|	  | 	| 	|   |-- location_geocode.csv
-|	  |   |-- fig/
-|	  | 	|   |-- alex/
-|	  | 	| 	|   |-- MostCommonDisasters_byTopStates.png
-|	  | 	| 	|   |-- Top10_MostFrequent_Disasters.png
-|	  | 	| 	|   |-- Top10_States_MostDisasters.png
-|	  | 	|   |-- avenika/
-|	  | 	|	  |   |-- FloodTrend_byYear.png
-| 	| 	| 	|   |-- HurricaneTrend_byYear.png
-| 	| 	| 	|   |-- SevereStormTrend_byYear.png
-| 	| 	|   |-- claudia/
-| 	| 	| 	|   |-- AvgCycleTime_byType.png
-| 	| 	| 	|   |-- CycleTimeDistr_byType.png
-| 	| 	| 	|   |-- DisasterCount_byState.png
-| 	| 	| 	|   |-- DisasterNumber_overTime.png
-| 	| 	| 	|   |-- DisasterNumbers_byYear.png
-| 	| 	| 	|   |-- TimeForDeclaration_byState.png
-| 	| 	| 	|   |-- Year_over_year_disasters.png
-| 	| 	|   |-- neel/
-| 	| 	| 	|   |-- cleaned_df.png
-| 	| 	| 	|   |-- original_df.png
-| 	| 	| 	|   |-- summary_df.png
-| 	|-- Original Notebooks/
-| 	|	  |-- Alex_Notebook.ipynb
-|	  |	  |-- Avenika_Notebook.ipynb
-|	  |	  |-- Claudia_Notebook.ipynb
-| 	| 	|-- Neel_Notebook.ipynb
-|	  |-- PDFs/
-| 	|   |-- disaster_declaration_process.pdf
-| 	| 	|-- FEMA Weather Impact Analysis.pdf
-| 	|	  |-- InternationalCountryCodes.pdf
-| 	|-- fact_sheet.md
+|   |   |   |-- clean/
+|   |   |   |   |-- distilled_summary.csv
+|   |   |   |   |-- femaDisasters_geocode.csv
+|   |   |   |-- raw/
+|   |   |   |   |-- DisastersDeclarationsSummaries.csv
+|   |   |   |   |-- femaDisasters_rough.csv
+|   |   |   |   |-- location_geocode.csv
+|   |   |-- fig/
+|   |   |   |-- alex/
+|   |   |   |   |-- MostCommonDisasters_byTopStates.png
+|   |   |   |   |-- Top10_MostFrequent_Disasters.png
+|   |   |   |   |-- Top10_States_MostDisasters.png
+|   |   |   |-- avenika/
+|   |   |   |   |-- FloodTrend_byYear.png
+|   |   |   |   |-- HurricaneTrend_byYear.png
+|   |   |   |   |-- SevereStormTrend_byYear.png
+|   |   |   |-- claudia/
+|   |   |   |   |-- AvgCycleTime_byType.png
+|   |   |   |   |-- CycleTimeDistr_byType.png
+|   |   |   |   |-- DisasterCount_byState.png
+|   |   |   |   |-- DisasterNumber_overTime.png
+|   |   |   |   |-- DisasterNumbers_byYear.png
+|   |   |   |   |-- TimeForDeclaration_byState.png
+|   |   |   |   |-- Year_over_year_disasters.png
+|   |   |   |-- neel/
+|   |   |   |   |-- cleaned_df.png
+|   |   |   |   |-- original_df.png
+|   |   |   |   |-- summary_df.png
+|   |-- Original Notebooks/
+|   |   |-- Alex_Notebook.ipynb
+|   |   |-- Avenika_Notebook.ipynb
+|   |   |-- Claudia_Notebook.ipynb
+|   |   |-- Neel_Notebook.ipynb
+|   |-- PDFs/
+|   |   |-- disaster_declaration_process.pdf
+|   |   |-- FEMA Weather Impact Analysis.pdf
+|   |   |-- InternationalCountryCodes.pdf
+|   |-- fact_sheet.md
 |- .gitignore
 |- DisastersDeclarationsSummaries.csv
 |- havoc_ETL.ipynb
