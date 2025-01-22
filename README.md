@@ -262,21 +262,21 @@ HavocMapper/
 |-- docs/
 |   |-- Expected Assets/
 |   |   |-- csv/
-|	  |  	|   |-- clean/
-|	  | 	| 	|   |-- distilled_summary.csv
-|	  | 	| 	|   |-- femaDisasters_geocode.csv
-|	  | 	|   |-- raw/
-|	  | 	| 	|   |-- DisastersDeclarationsSummaries.csv
-|	  | 	| 	|   |-- femaDisasters_rough.csv
-|	  | 	| 	|   |-- location_geocode.csv
-|	  |   |-- fig/
-|	  | 	|   |-- alex/
-|	  | 	| 	|   |-- MostCommonDisasters_byTopStates.png
-|	  | 	| 	|   |-- Top10_MostFrequent_Disasters.png
-|	  | 	| 	|   |-- Top10_States_MostDisasters.png
-|	  | 	|   |-- avenika/
-|	  | 	|	  |   |-- FloodTrend_byYear.png
-| 	| 	| 	|   |-- HurricaneTrend_byYear.png
+|   |   |   |-- clean/
+|   |   |   |   |-- distilled_summary.csv
+|   |   |   |   |-- femaDisasters_geocode.csv
+|   |   |   |-- raw/
+|   |   |   |   |-- DisastersDeclarationsSummaries.csv
+|   |   |   |   |-- femaDisasters_rough.csv
+|   |   |   |   |-- location_geocode.csv
+|   |   |-- fig/
+|   |   |   |-- alex/
+|   |   |   |   |-- MostCommonDisasters_byTopStates.png
+|   |   |   |   |-- Top10_MostFrequent_Disasters.png
+|   |   |   |   |-- Top10_States_MostDisasters.png
+|   |   |   |-- avenika/
+|   |   |   |   |-- FloodTrend_byYear.png
+|   |   |   |   |-- HurricaneTrend_byYear.png
 | 	| 	| 	|   |-- SevereStormTrend_byYear.png
 | 	| 	|   |-- claudia/
 | 	| 	| 	|   |-- AvgCycleTime_byType.png
