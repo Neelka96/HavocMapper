@@ -16,8 +16,11 @@ data trends. Learn more about FEMA's work on their [website](https://www.fema.go
   - [Notebook Execution Order](#notebook-execution-order)  
   - [Reading Notebooks Effectively](#reading-notebooks-effectively)  
 - [General Overview](#general-overview)  
-- [Major Technologies Used](#major-technologies-used)  
-- [System Requirements](#system-requirements)  
+  - [Major Technologies Used](#major-technologies-used)  
+  - [System Requirements](#system-requirements)  
+    - [Hardware](#hardware)
+    - [Software](#software)
+    - [Manual Dependencies](#manual-dependencies)
 - [Detailed Description](#detailed-description)  
   - [Workflow](#workflow)  
   - [Purpose and Goals](#purpose-and-goals)  
@@ -118,7 +121,7 @@ cleaned, geocoded, and visualized to identify trends in extreme weather response
 libraries and API integrations.  
 
 
-## Major Technologies Used  
+### Major Technologies Used  
 
 - Python 3.12.2  
 - Jupyter Notebook  
@@ -127,22 +130,22 @@ libraries and API integrations.
 - requests  
 
 
-## System Requirements  
+### System Requirements  
 
-### Hardware  
+#### Hardware  
 
 - A modern computer with at least 8GB RAM and 2GHz multi-core CPU.  
 - Internet access for API calls.  
 
-### Software  
+#### Software  
 
 - Python 3.12 or higher  
 - Recommended: Conda for environment management.  
 
-### Manual Dependencies (if not using `requirements.txt`)  
-
+#### Manual Dependencies 
+If not using `requirements.txt` please pip install the following if you don't already have these libraries:  
 - pandas  
-- pathlib
+- pathlib  
 - matplotlib  
 - holoviews  
 - geoviews  
